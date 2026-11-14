@@ -26,7 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'joint_publisher = arm_sim.joint_publisher:main',
-
+            'joint_subscriber = arm_sim.joint_subscriber:main',
         ],
     },
 )
